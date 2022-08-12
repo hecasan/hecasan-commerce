@@ -16,7 +16,7 @@ export default function Layout({ title, children }) {
           <Navbar />
         </header>
 
-        <main className="container m-auto mt-4 px-4">{children}</main>
+        <main className="container m-auto mt-4">{children}</main>
 
         <footer className="flex h-20 justify-center items-center shadow-inner py-6">
           <Footer />
